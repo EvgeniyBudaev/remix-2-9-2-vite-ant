@@ -16,7 +16,7 @@ export default function Index() {
       <h1>Welcome to Remix</h1>
       <WordCloud data={dataClouds} />
       <hr />
-      <Chart data={chartData} variantChart={EChartVariants.Variant2} />
+      <Chart data={chartData} variantChart={EChartVariants.Variant1} />
     </div>
   );
 }
